@@ -17,6 +17,15 @@ $(function() {
   });
 });
 
+
+$(function() {
+  $(window).scroll(function(){
+    $(".navbar").addClass( "navbarscroll");
+    $(".navbutton").addClass( "navbuttonscroll");
+  });
+});
+
+
 $(function() {
   $('#downarrow').click(function(){
     $('#downarrow').animate({

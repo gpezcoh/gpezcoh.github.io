@@ -2,58 +2,43 @@ body{
 	background-color: #f6f9fa;
 }
 
+/*#2fc2a9
+*/
 .navbar{
-	background-color: black!important;
+	background-color: #3F51B5!important;
 	border: none;
 }
 
-.name{
+.navbarscroll{
+	background-color: #f6f9fa!important;
+	border: none;
+	transition: background-color 0.5s;
+}
+
+.navbutton{
 	font-size: 1.5em!important;
-	color: #2fc2a9!important;
+	color: #f6f9fa!important;
+	background-color: #3F51B5!important;
 	-webkit-transition: color 0.5s, background-color 0.5s;
 	transition: color 0.5s, background-color 0.5s;
 	}
 
-.name:hover{
-	background-color: #2fc2a9!important;
-	color: white!important;
+.navbutton:hover{
+	background-color: #f6f9fa!important;
+	color: #3F51B5!important;
 }
 
-
-.background{
+.navbuttonscroll{
 	font-size: 1.5em!important;
-	color: #2fc2a9!important;
+	color: #3F51B5!important;
+	background-color: #f6f9fa!important;
 	-webkit-transition: color 0.5s, background-color 0.5s;
 	transition: color 0.5s, background-color 0.5s;
-	}
-
-.background:hover{
-	background-color: #2fc2a9!important;
-	color: white!important;
 }
 
-.projects{
-	font-size: 1.5em!important;
-	color: #2fc2a9!important;
-	-webkit-transition: color 1s, background-color 1s;
-	transition: color 1s, background-color 1s;
-	}
-
-.projects:hover{
-	background-color: #2fc2a9!important;
-	color: white!important;
-}
-
-.contact{
-	font-size: 1.5em!important;
-	color: #2fc2a9!important;
-	-webkit-transition: color 1s, background-color 1s;
-	transition: color 1s, background-color 1s;
-	}
-
-.contact:hover{
-	background-color: #2fc2a9!important;
-	color: white!important;
+.navbuttonscroll:hover{
+	background-color: #3F51B5!important;
+	color: #f6f9fa!important;
 }
 
 #welcomemain{
@@ -65,11 +50,11 @@ body{
 
 .welcome{
 	padding: 1em;
-/*	border: 1em solid #2fc2a9;
+/*	border: 1em solid #3F51B5;
 */	padding: 0.1em;
 	text-align: center;
 	font-size: 7em;
-	color: #2fc2a9;
+	color: #3F51B5;
 }
 
 #welcomemain, #backgroundmain{
@@ -78,7 +63,7 @@ body{
 
 #downarrow{
 	font-size: 10em!important;
-	color: #2fc2a9!important;
+	color: #3F51B5!important;
 	-webkit-transition: color 1s;
 	transition: color 1s;
 }
@@ -95,7 +80,7 @@ body{
 }
 
 #downarrow2:hover{
-	color: #2fc2a9!important;
+	color: #3F51B5!important;
 }
 
 
@@ -107,7 +92,7 @@ body{
 }
 
 #uparrow:hover{
-	color: #2fc2a9!important;
+	color: #3F51B5!important;
 }
 
 .emptycircle{
@@ -115,7 +100,7 @@ body{
 	height: 15em;
 	width: 15em;
 	border-radius: 50%;
-	border: 1em solid #2fc2a9;
+	border: 1em solid #3F51B5;
 	background-color: #f6f9fa;
 	-webkit-transition: color 1s, background-color 1s;
 	transition: color 1s!important, background-color 1s;
@@ -127,13 +112,13 @@ body{
 	width: 15em;
 	border-radius: 50%;
 	border: 1em solid #f6f9fa;
-	background-color: #2fc2a9;
+	background-color: #3F51B5;
 	-webkit-transition: color 1s, background-color 1s;
 	transition: color 1s, background-color 1s;
 }
 
 .emptycircle:hover{
-	background-color: #2fc2a9;
+	background-color: #3F51B5;
 	color: #f6f9fa!important;
 }
 
@@ -146,11 +131,11 @@ body{
 }
 
 .emptycircle2 i:hover{
-color: #2fc2a9!important;
+color: #3F51B5!important;
 }
 
 #backgroundmain{
-	background-color: #2fc2a9;
+	background-color: #3F51B5;
 	padding: 4.5em;
 	text-align: center;
 }
@@ -180,10 +165,10 @@ color: #2fc2a9!important;
 .projecttitle{
 	margin: 0 auto;
 	display: inline-block;
-	border: 0.1em solid #2fc2a9;
+	border: 0.1em solid #3F51B5;
 	text-align: center;
 	font-size: 3em;
-	color: #2fc2a9;
+	color: #3F51B5;
 }
 
 .circle{
@@ -191,7 +176,7 @@ color: #2fc2a9!important;
 	height: 15em;
 	width: 15em;
 	border-radius: 50%;
-	background-color: #2fc2a9;
+	background-color: #3F51B5;
 }
 
 .circle i{
@@ -203,14 +188,14 @@ color: #2fc2a9!important;
 .details
 {
 	padding: 1em;
-	color: #2fc2a9;
+	color: #3F51B5;
 	font-size: 2em;
 
 }
 
 .divider{	
 content: " ";
-border: solid 0.2em #2fc2a9;
+border: solid 0.2em #3F51B5;
 display: block;
 width: 4em;
 margin: 2em auto 0 auto;
@@ -226,17 +211,17 @@ margin: 2em auto 0 auto;
 .contacttitle{
 	margin: 0 auto;
 	display: inline-block;
-	border: 0.1em solid #2fc2a9;
+	border: 0.1em solid #3F51B5;
 	text-align: center;
 	font-size: 3em;
-	color: #2fc2a9;
+	color: #3F51B5;
 }
 
 .contactbody{
 	padding: 1em;
 	text-align: center;
 	font-size: 2.5em;
-	color: #2fc2a9;
+	color: #3F51B5;
 }
 
 @media only screen and (max-width : 480px){
