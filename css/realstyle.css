@@ -1,0 +1,280 @@
+body{
+	background-color: #f6f9fa;
+}
+
+.navbar{
+	background-color: black!important;
+	border: none;
+}
+
+.name{
+	font-size: 1.5em!important;
+	color: #2fc2a9!important;
+	-webkit-transition: color 0.5s, background-color 0.5s;
+	transition: color 0.5s, background-color 0.5s;
+	}
+
+.name:hover{
+	background-color: #2fc2a9!important;
+	color: white!important;
+}
+
+
+.background{
+	font-size: 1.5em!important;
+	color: #2fc2a9!important;
+	-webkit-transition: color 0.5s, background-color 0.5s;
+	transition: color 0.5s, background-color 0.5s;
+	}
+
+.background:hover{
+	background-color: #2fc2a9!important;
+	color: white!important;
+}
+
+.projects{
+	font-size: 1.5em!important;
+	color: #2fc2a9!important;
+	-webkit-transition: color 1s, background-color 1s;
+	transition: color 1s, background-color 1s;
+	}
+
+.projects:hover{
+	background-color: #2fc2a9!important;
+	color: white!important;
+}
+
+.contact{
+	font-size: 1.5em!important;
+	color: #2fc2a9!important;
+	-webkit-transition: color 1s, background-color 1s;
+	transition: color 1s, background-color 1s;
+	}
+
+.contact:hover{
+	background-color: #2fc2a9!important;
+	color: white!important;
+}
+
+#welcomemain{
+	background-color: #f6f9fa;
+	padding: 7em;
+	margin-top: 5em;
+	text-align: center;
+}
+
+.welcome{
+	padding: 1em;
+/*	border: 1em solid #2fc2a9;
+*/	padding: 0.1em;
+	text-align: center;
+	font-size: 7em;
+	color: #2fc2a9;
+}
+
+#welcomemain, #backgroundmain{
+	height: 100vh;
+}
+
+#downarrow{
+	font-size: 10em!important;
+	color: #2fc2a9!important;
+	-webkit-transition: color 1s;
+	transition: color 1s;
+}
+
+#downarrow:hover{
+	color: #f6f9fa!important;
+}
+
+#downarrow2{
+	font-size: 10em!important;
+	color: #f6f9fa!important;
+	-webkit-transition: color 1s;
+	transition: color 1s;
+}
+
+#downarrow2:hover{
+	color: #2fc2a9!important;
+}
+
+
+#uparrow{
+	font-size: 10em!important;
+	color: #f6f9fa!important;
+	-webkit-transition: color 1s;
+	transition: color 1s;
+}
+
+#uparrow:hover{
+	color: #2fc2a9!important;
+}
+
+.emptycircle{
+	margin: 2em auto 0 auto;
+	height: 15em;
+	width: 15em;
+	border-radius: 50%;
+	border: 1em solid #2fc2a9;
+	background-color: #f6f9fa;
+	-webkit-transition: color 1s, background-color 1s;
+	transition: color 1s!important, background-color 1s;
+}
+
+.emptycircle2{
+	margin: 2em auto 0 auto;
+	height: 15em;
+	width: 15em;
+	border-radius: 50%;
+	border: 1em solid #f6f9fa;
+	background-color: #2fc2a9;
+	-webkit-transition: color 1s, background-color 1s;
+	transition: color 1s, background-color 1s;
+}
+
+.emptycircle:hover{
+	background-color: #2fc2a9;
+	color: #f6f9fa!important;
+}
+
+.emptycircle2:hover{
+	background-color: #f6f9fa;	
+}
+
+.emptycircle i:hover{
+	color: #f6f9fa!important;
+}
+
+.emptycircle2 i:hover{
+color: #2fc2a9!important;
+}
+
+#backgroundmain{
+	background-color: #2fc2a9;
+	padding: 4.5em;
+	text-align: center;
+}
+
+.backgroundtitle{
+	margin: 0 auto;
+	display: inline-block;
+	border: 0.1em solid #f6f9fa;
+	text-align: center;
+	font-size: 3em;
+	color: #f6f9fa;
+}
+
+.backgroundbody{
+	text-align: center;
+	font-size: 2em;
+	color: #f6f9fa;
+}
+
+#projectmain{
+	background-color: #f6f9fa;
+	height: 50em;
+	padding: 4.5em;
+	text-align: center;
+}
+
+.projecttitle{
+	margin: 0 auto;
+	display: inline-block;
+	border: 0.1em solid #2fc2a9;
+	text-align: center;
+	font-size: 3em;
+	color: #2fc2a9;
+}
+
+.circle{
+	margin: 6em auto 0 auto;
+	height: 15em;
+	width: 15em;
+	border-radius: 50%;
+	background-color: #2fc2a9;
+}
+
+.circle i{
+	color: #f6f9fa;
+	font-size: 5em;
+	padding-top: 1em;
+}
+
+.details
+{
+	padding: 1em;
+	color: #2fc2a9;
+	font-size: 2em;
+
+}
+
+.divider{	
+content: " ";
+border: solid 0.2em #2fc2a9;
+display: block;
+width: 4em;
+margin: 2em auto 0 auto;
+}
+
+#contactmain{
+	background-color: #f6f9fa;
+	padding: 2em;
+	text-align: center;
+
+}
+
+.contacttitle{
+	margin: 0 auto;
+	display: inline-block;
+	border: 0.1em solid #2fc2a9;
+	text-align: center;
+	font-size: 3em;
+	color: #2fc2a9;
+}
+
+.contactbody{
+	padding: 1em;
+	text-align: center;
+	font-size: 2.5em;
+	color: #2fc2a9;
+}
+
+@media only screen and (max-width : 480px){
+	#welcomemain{
+		height: auto;
+		padding: 0 0 1em 0;
+	}
+	#backgroundmain{
+		height: auto;
+		padding: 4.5em 1em 4.5em 1em;
+	}
+	.backgroundtitle{
+		font-size: 2.5em;
+	}
+	.backgroundbody{
+		font-size: 1.5em;
+	}
+	.welcome{
+		font-size: 3.5em;
+	}
+	.emptycircle{
+		height: 30vh;
+		width: 30vh;
+	}
+	#downarrow{
+		font-size: 7em!important;
+	}
+	.emptycircle2{
+		height: 30vh;
+		width: 30vh;
+	}
+	#downarrow2{
+		font-size: 7em!important;
+	}
+	#contactmain{
+		height: auto;
+	}
+	.contactbody{
+		font-size: 1.5em;
+	}
+}
