@@ -65,22 +65,17 @@ $(function() {
 
 });
 
-// $(function() {
-//   $('#uparrow').click(function(){
-//     $('#uparrow').animate({
-//       'margin-top' : "-=845px",
-//       'opacity' : "-=1"
-//     },900);
+$(function() {
+  $(window).on("scroll", function() {
+      var scrollt = $(window).scrollTop();
 
-//     $('#uparrow').animate({
-//       'margin-top' : "+=845px",
-//     },900);
-
-//     $('#uparrow').animate({
-//       'opacity' : "+=1"
-//     },900);
-//   });
-// });
+      if (scrollt <= 100)
+      {
+        $(".navbar").removeClass( "navbarscroll");
+        $(".navbutton").removeClass( "navbuttonscroll");
+      }
+  });
+});
 
 
 });
